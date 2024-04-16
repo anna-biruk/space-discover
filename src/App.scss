@@ -4,12 +4,22 @@
 body {
   font-family: $font-family;
 }
+
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
 .cart-icon {
-  opacity: 1;
-  fill: white;
+  & path {
+    opacity: 1;
+    fill: white;
+  }
   &:hover {
-    fill: url(#paint0_linear_16_42);
-    fill-opacity: 0.6;
+    & path {
+      fill: url(#paint0_linear_16_42);
+      fill-opacity: 0.6;
+    }
   }
 }
 .header {
@@ -319,18 +329,22 @@ body {
       display: none;
     }
     &__container {
-      padding: 0 80px;
+      max-width: $max-width;
+      margin: 0 auto;
+      padding: 0;
     }
   }
 
   .main {
     background-position: 870px, center, center;
     &__content {
-      padding-right: 468px;
-      padding-left: 80px;
+      max-width: $max-width;
+      margin: 0 auto;
+      padding: 0;
       gap: 22px;
     }
     &__title {
+      max-width: 688px;
       margin-top: 91px;
       text-align: left;
       font-size: 72px;
@@ -342,13 +356,14 @@ body {
   .offers {
     &__title {
       font-size: 34px;
-      margin-left: 80px;
+      margin: 0 auto 40px auto;
+      max-width: $max-width;
     }
     &__list {
-      max-width: unset;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 350px 350px 350px;
-      margin: 0 80px;
+      margin: 0 auto;
+      max-width: $max-width;
     }
 
     &__item {
@@ -385,7 +400,9 @@ body {
     }
   }
   .post {
-    padding: 0 80px;
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0;
     &__title {
       font-size: 32px;
     }

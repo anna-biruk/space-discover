@@ -1,7 +1,7 @@
 import React from 'react';
 
 import clsx from 'clsx';
-import CartIconComponent from './CartIcon';
+import { ReactComponent as CartIcon } from '../assets/cart.svg';
 
 const links = [{
     label: 'Home',
@@ -10,7 +10,7 @@ const links = [{
     label: 'Products',
     href: '#products'
 }, {
-    label: <CartIconComponent />,
+    label: <CartIcon />,
     href: '#cart'
 }]
 const Navigation = ({ className }) => {

@@ -10,7 +10,6 @@ const Header = () => {
                 <img className="header__logo" src={Logo} alt="logo" />
                 <Navigation className="header__navigation" />
                 <BurgerMenu className="header__burger-menu" />
-
             </div>
         </header>
     )
