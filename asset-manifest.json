@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/space-discover/static/css/main.1689c106.css",
+    "main.js": "/space-discover/static/js/main.0a11414e.js",
+    "static/media/main.png": "/space-discover/static/media/main.712184a8294de1379042.png",
+    "static/media/EARTH.svg": "/space-discover/static/media/EARTH.83d68f94de9d84f4e1bc.svg",
+    "static/media/4.png": "/space-discover/static/media/4.33d5f4a6e513e2713f63.png",
+    "static/media/3.png": "/space-discover/static/media/3.15d7c98baa9beec23ca4.png",
+    "static/media/1.png": "/space-discover/static/media/1.352fb7334c1fc3fc00b6.png",
+    "static/media/2.png": "/space-discover/static/media/2.c63c97afea2e50bd4e92.png",
+    "static/media/logo.svg": "/space-discover/static/media/logo.f477468d969fbad2b2c49cb8581c7bb0.svg",
+    "static/media/cart.svg": "/space-discover/static/media/cart.19758088a399b3d0fd2bc3221a96ae80.svg",
+    "static/media/burger.svg": "/space-discover/static/media/burger.7e65dcdbfcb4fb7f60ea90f61a0ab5f8.svg",
+    "static/media/close-icon.svg": "/space-discover/static/media/close-icon.60d4f41347544050a7b9d2915be4e499.svg",
+    "index.html": "/space-discover/index.html",
+    "main.1689c106.css.map": "/space-discover/static/css/main.1689c106.css.map",
+    "main.0a11414e.js.map": "/space-discover/static/js/main.0a11414e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1689c106.css",
+    "static/js/main.0a11414e.js"
+  ]
+}
